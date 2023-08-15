@@ -21,7 +21,7 @@ const Quiz = () => {
   const [quiz, setQuiz] = useState();
 
   const getData = async () => {
-    fetch(`http://localhost:3000/quiz/quiz-questions/${id}`)
+    fetch(`https://backend-test-plqm.onrender.com/quiz/quiz-questions/${id}`)
       .then((data) => {
         return data.json();
       })
@@ -42,7 +42,7 @@ const Quiz = () => {
   };
 
   const sendData = (data) => {
-    fetch("http://localhost:3000/quiz/quiz-result", {
+    fetch("https://backend-test-plqm.onrender.com/quiz/quiz-result", {
       method: "POST",
       body: JSON.stringify(data),
       headers: {

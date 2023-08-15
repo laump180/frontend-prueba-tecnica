@@ -13,7 +13,7 @@ const AllQuiz = () => {
   // state to handle quiz component data
   const [quiz, setQuiz] = useState();
   const getData = async () => {
-    fetch("http://localhost:3000/quiz/all-quizzes")
+    fetch("https://backend-test-plqm.onrender.com/quiz/all-quizzes")
       .then((data) => {
         return data.json();
       })
