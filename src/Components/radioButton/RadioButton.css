@@ -1,0 +1,22 @@
+.radio-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 20px;
+}
+
+.radio-button-label{
+    width: 50%;
+    text-align: left;
+}
+
+.correct{
+    color: green;
+    font-weight: bold;
+}
+
+.incorrect{
+    font-weight: bold;
+    color: red;
+}
