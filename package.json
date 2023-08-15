@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://laump180.github.io/frontend-prueba-tecnica",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
